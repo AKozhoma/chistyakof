@@ -1,0 +1,23 @@
+/* CSS atributes for IE, that doesn't supported by validator */
+
+
+
+/* IE 6/7 hasLayout bug fix */
+
+.hasLayout {
+  min-height: 0px;
+  _height: 1px;
+}
+
+/* IE 6 PNGFix */
+
+* html .pngfix {
+  behavior: url(iepngfix/iepngfix.htc);
+}
+
+/* IE display:inline-block bug fix */
+
+.inline_block {
+  display: inline;
+  zoom: 1;
+}

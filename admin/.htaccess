@@ -1,0 +1,7 @@
+RewriteEngine off
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Роутер
+RewriteRule ^([\/-_A-Za-z0-9^/]+)$ index2.php?route=$1 [L,NC,QSA]

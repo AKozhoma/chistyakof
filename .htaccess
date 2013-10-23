@@ -1,0 +1,18 @@
+#php_value register_globals 0
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Контент
+RewriteRule ^([-_A-Za-z0-9^]+).html/?$ index.php?route=content/show/$1&link=$1 [L,NC,QSA]
+RewriteRule ^(ru|ua|en)/?$ index.php?lang=$1&route=content [L,NC,QSA]
+RewriteRule ^(ru|ua|en)/([-_A-Za-z0-9^/]+).html/?$ index.php?lang=$1&route=content/show/$2&link=$2 [L,NC,QSA]
+
+# Роутер
+RewriteRule ^(ru|ua|en)/([\/-_A-Za-z0-9^/]+)$ index.php?lang=$1&route=$2 [L,NC,QSA]
+RewriteRule ^([\/-_A-Za-z0-9^/]+)$ index.php?route=$1 [L,NC,QSA]
+
+php_value display_errors 1
+php_value display_startup_errors 1

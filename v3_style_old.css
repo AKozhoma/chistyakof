@@ -1,0 +1,243 @@
+/* Created by Eugene V3 Isakov */
+/* Thursday, the 3rd of June, 2010 */
+/* ChipSite | STG Studio */
+/* http://chipsite.com.ua | http://stgstudio.com */
+
+body {
+  font-family: Tahoma;
+  font-size: .875em;
+  color: #0a3463;
+}
+a {
+/*  color: #ee7f01; */
+  color: #de6f01;
+  text-decoration: underline;
+}
+h1 {
+  font-size: 1.7em;
+  line-height: 1.5em;
+  color: #ee7f01;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 1.5em;
+  line-height: 1.2em;
+  color: #ee7f01;
+}
+input[type=text], input[type=password] {
+  border: 1px solid #a6a6a6;
+  padding: 2px;
+  width: 300px;
+  font-size: 1em;
+}
+textarea {
+  border: 1px solid #a6a6a6;
+  padding: 2px;
+  width: 300px;
+  height: 98px;
+  font-size: 1em;
+}
+
+.upper_td {
+  text-align: center;
+  background: url(img/upper_bg.jpg) left top repeat-x;
+  height: 38px;
+}
+.container_table {
+  background: #3294d3 url(img/sky_bg.jpg) left bottom repeat-x;
+}
+.i_container_table {
+  background: url(img/sky.jpg) center bottom no-repeat;
+/*  height: expression(document.body.Height > 1000)? "1000px" : "auto"; */
+}
+
+.fucking_td {
+  vertical-align: bottom;
+  height: 100%;
+  background: url(img/sky.jpg) center bottom no-repeat;
+}
+.main_td {
+  background: url(img/logo.png) center -32px no-repeat;
+}
+.content {
+  width: 1000px;
+  margin: 0px auto;
+}
+
+.phone {
+/*  padding: 140px 40px 50px 720px; */
+  padding: 140px 40px 50px 0px;
+  width: 250px;
+  _padding-top: 200px;
+  text-align: right;
+  float: right;
+  font-size: 2em;
+  color: white;
+}
+.phone span {
+  padding-left: 10px;
+/*  display: block; */
+/*  margin-top: -20px; */
+}
+.phone em {
+  font-style: normal;
+}
+
+.menu {
+  text-align: center;
+  height: 160px;
+/*  margin: -231px auto 0px auto; */
+  margin: 0px auto;
+  overflow: hidden;
+  width: 1000px;
+}
+.menu a {
+  display: inline-block;
+  width: 96px;
+  height: 1px;
+  padding-top: 95px;
+  overflow: hidden;
+  margin: 0px 25px;
+  vertical-align: top;
+  background-position: left top;
+  background-repeat: no-repeat;
+  font-size: 1.57em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  cursor: pointer;
+  color: #154b89;
+}
+.about {
+  background-image: url(img/about.png);
+}
+.services {
+  background-image: url(img/services.png);
+}
+.price {
+  background-image: url(img/price.png);
+}
+
+.menu a:hover {
+  height: 27px;
+  padding-top: 110px;
+}
+html>body .menu a:hover {
+  background-position: left bottom;
+}
+
+
+
+.txt_outer {
+  width: 919px;
+  height: 346px;
+  margin: 30px auto;
+  background: url(img/txt_bg.png) left top no-repeat;
+  overflow: hidden;
+}
+.txt {
+  padding: 20px 30px;
+/*  height: 619px; */
+}
+.pagetext {
+  height: 250px;
+  margin-top: 10px;
+  padding-right: 16px;
+  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.h1_td {
+  padding-right: 16px;
+}
+
+
+
+.footer_td {
+  height: 231px;
+  background: url(img/footer_bg.jpg) left bottom repeat-x;
+  vertical-align: bottom;
+}
+.footer {
+  height: 71px;
+  text-align: center;
+  background: url(img/footer.jpg) center top no-repeat;
+  overflow: hidden;
+/*  font-size: .85em; */
+  color: #404142;
+  width: 1000px;
+  margin: 0px auto;
+}
+.footer a {
+  color: #404142;
+}
+.f_links {
+  height: 16px;
+  overflow: hidden;
+  margin-top: 16px;
+}
+.f_links p {
+  text-align: center;
+  margin: .25em 0em;
+}
+.f_links a {
+  color: #eeeeee;
+  text-decoration: none;
+}
+
+
+.copyright {
+  float: left;
+  padding-top: 10px;
+  padding-left: 20px;
+  width: 300px;
+}
+.created_by {
+  float: right;
+  padding-top: 10px;
+  padding-right: 20px;
+  text-align: right;
+  width: 300px;
+}
+
+
+td.col {
+  padding-right: 80px;
+}
+
+.main_link {
+  display: block;
+/*  border: 1px solid red;*/
+/*  float: left; */
+  width: 286px;
+  height: 180px;
+/*  margin-top: 45px; */
+  margin-left: 80px;
+  text-decoration: none !important;
+}
+
+.h1_line {
+  height: 1px;
+  line-height: 1px;
+  font-size: 1px;
+  border-top: 1px solid #73a4cd;
+  background: #5589b8;
+}
+
+.under {
+  height: 231px;
+/*  margin-top: -231px; */
+}
+
+
+
+ul, li {
+  list-style-type: disc;
+  list-style-position: outside;
+}
+ul {
+  margin-left: 2.4em;
+}
+ul ul, li li {
+  list-style-type: circle !important;
+}

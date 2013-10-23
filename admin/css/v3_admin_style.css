@@ -1,0 +1,268 @@
+/* Created by Eugene V3 Isakov */
+/* Wendesday, 26 February, 2010 */
+/* ChipSite */
+/* http://chipsite.com.ua */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr, th, td, input {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background: white;
+  font-family: Arial;
+  font-size: 12px;
+  color: black;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+}
+a {
+  font-family: Arial;
+  font-size: 12px;
+  color: #5c7ec8;
+  text-decoration: underline;
+  font-weight: normal;
+}
+a:hover {
+  text-decoration: none;
+}
+.clear {
+  height: 0px;
+  line-height: 0px;
+  font-size: 1px;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  overflow: hidden;
+  clear: both;
+  float: none;
+}
+.container_table {
+  width: 950px;
+}
+.container_table td {
+  text-align: left;
+}
+.upper_td {
+  height: 44px;
+  vertical-align: top;
+}
+.upper {
+  background: url(/admin/imagez/upper_bg.jpg) left top repeat-x;
+}
+.upper_left {
+  background: url(/admin/imagez/upper_left.jpg) left top no-repeat;
+}
+.upper_right {
+  background: url(/admin/imagez/upper_right.jpg) right top no-repeat;
+  height: 34px;
+  font-family: Arial;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+.upper_right a {
+  font-family: inherit;
+  font-family: Arial;
+/*  font-family: expression(this.parentNode.currentStyle['fontFamily']); */
+  font-size: inherit;
+  font-size: 20px;
+/*  font-size: expression(this.parentNode.currentStyle['fontSize']); */
+  color: inherit;
+  color: white;
+/*  color: expression(this.parentNode.currentStyle['color']); */
+}
+.upper_btns_td {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  height: 51px;
+}
+
+.button {
+  float: left;
+  height: 28px;
+}
+.button div {
+  float: left;
+  height: 28px;
+}
+.type_1 {
+  background: url(/admin/imagez/btn_bg_type1.jpg) left top repeat-x;
+}
+.type_2 {
+  background: url(/admin/imagez/btn_bg_type2.jpg) left top repeat-x;
+}
+.type_3 {
+  background: url(/admin/imagez/btn_bg_type3.jpg) left top repeat-x;
+}
+.type_1 .btn_left {
+  width: 6px;
+  background: url(/admin/imagez/btn_left_type1.jpg) left top no-repeat;
+}
+.type_1 .btn_right {
+  width: 6px;
+  background: url(/admin/imagez/btn_right_type1.jpg) left top no-repeat;
+}
+.type_2 .btn_left {
+  width: 6px;
+  background: url(/admin/imagez/btn_left_type2.jpg) left top no-repeat;
+}
+.type_2 .btn_right {
+  width: 6px;
+  background: url(/admin/imagez/btn_right_type2.jpg) left top no-repeat;
+}
+.type_3 .btn_left {
+  width: 6px;
+  background: url(/admin/imagez/btn_left_type3.jpg) left top no-repeat;
+}
+.type_3 .btn_right {
+  width: 6px;
+  background: url(/admin/imagez/btn_right_type3.jpg) left top no-repeat;
+}
+.button input {
+  border: 0px;
+  height: 28px;
+  background: none;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-family: Arial;
+  font-size: 14px;
+}
+.type_1 input, .type_2 input {
+  color: #0f73be;
+}
+.type_3 input {
+  color: white;
+}
+
+
+.upper_btns_td .type_2 {
+  margin-left: 12px;
+}
+.upper_btns_td .type_3 {
+  float: right;
+}
+
+
+
+.left_part {
+  float: left;
+  width: 228px;
+}
+.main_part {
+  margin-left: 240px;
+}
+
+
+
+.block {
+  margin-bottom: 10px;
+}
+.block_header {
+  background: url(/admin/imagez/block_header_bg.jpg) left top repeat-x;
+}
+.block_header_left {
+  background: url(/admin/imagez/block_header_left.jpg) left top no-repeat;
+}
+.block_header_right {
+  background: url(/admin/imagez/block_header_right.jpg) right top no-repeat;
+  font-family: Arial;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  padding-top: 2px;
+  height: 19px;
+  overflow: hidden;
+}
+.block_content {
+  background: #f5f5f5;
+  border: 1px solid #d7d9d9;
+  border-top: 0px none;
+  padding: 10px 16px 4px 16px;
+}
+
+
+.leftmenu li {
+  list-style-type: none;
+  padding: 3px 0px;
+}
+.leftmenu li.active a {
+  color: #4ea0f6;
+  font-weight: bold;
+}
+.leftmenu li span {
+  padding-left: 3px;
+}
+.leftmenu li span img {
+  vertical-align: bottom;
+}
+.leftmenu li b {
+  padding-left: 8px;
+}
+.leftmenu .submenu {
+  margin-top: 3px;
+}
+.leftmenu .submenu li {
+  padding-top: 3px;
+  padding-left: 28px;
+  background: url(/admin/imagez/submenu_bg.gif) left top no-repeat;
+  
+}
+
+.add_category {
+  padding-top: 20px;
+}
+.add_category a {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.contacts {
+  padding-top: 20px;
+  padding-left: 110px;
+  background: url(/admin/imagez/logo.jpg) left 24px no-repeat;
+  font-family: Arial;
+  font-size: 14px;
+  color: #cc0202;
+  font-weight: bold;
+}
+
+
+.footer_td {
+  height: 37px;
+  vertical-align: bottom;
+}
+.footer {
+  background: url(/admin/imagez/footer_bg.jpg) left top repeat-x;
+  height: 37px;
+  width: 950px;
+  margin: 0px auto;
+  margin-top: -37px;
+}
+.footer_left {
+  background: url(/admin/imagez/footer_left.jpg) left top no-repeat;
+}
+.footer_right {
+  background: url(/admin/imagez/footer_right.jpg) right top no-repeat;
+  height: 27px;
+  padding: 10px 14px 0px 14px;
+  color: white;
+}
+.footer a {
+  color: white;
+}
+.copyright {
+  float: left;
+  width: 200px;
+}
+.created_by {
+  float: right;
+  width: 200px;
+  text-align: right;
+}

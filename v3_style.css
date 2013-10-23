@@ -1,0 +1,99 @@
+body {font-family: Tahoma; font-size: .875em; color: #0a3463; background: url(img/sky.jpg) center no-repeat !important;}
+a {color: #de6f01; text-decoration: underline;}
+h1 {font-size: 1.7em; line-height: 1.5em; color: #ee7f01; white-space: nowrap; text-transform: uppercase;}
+h2 {font-size: 1.5em; line-height: 1.2em; color: #ee7f01;}
+input[type=text], input[type=password] {border: 1px solid #a6a6a6; padding: 2px; width: 300px; font-size: 1em;}
+textarea {border: 1px solid #a6a6a6; padding: 2px; width: 300px; height: 98px; font-size: 1em;}
+
+.upper_td {text-align: center; background: url(img/upper_bg.jpg) left top repeat-x; height: 38px;}
+
+.content {width: 1000px; margin: 0px auto;}
+.contacts {height: 190px; margin-bottom: 20px; position: relative;}
+.logo {float: left; width: 205px; height: 185px;}
+.logo img {width: 750px; height: auto; position: absolute; left: -75px; z-index: -99;}
+.phone {padding: 90px 0 0 0; _padding-top: 200px; text-align: right; float: right; font-size: 2em; color: white;}
+.phone span {padding-left: 10px;}
+.phone em {font-style: normal;}
+
+.menu {text-align: center; height: 110px; width: 450px; margin-top: 60px; margin-left: 70px; display: inline-block;}
+.menu a {display: inline-block; width: 96px; height: 1px; padding-top: 95px; text-decoration: none; margin: 0px 25px; vertical-align: top; background-position: left top; background-repeat: no-repeat; font-size: 1.57em; text-transform: uppercase; white-space: nowrap; cursor: pointer; color: #154b89;}
+.about {background-image: url(img/about.png);}
+.services {background-image: url(img/services.png);}
+.price {background-image: url(img/price.png);}
+
+.menu a:hover {height: 27px; padding-top: 110px;}
+html>body .menu a:hover {background-position: left bottom;}
+
+.txt_outer {width: 919px; margin: 0px auto 30px auto; background: url(img/txt_bg.png) left top no-repeat; overflow: hidden;}
+.txt {padding: 10px 20px 20px 20px;}
+.pagetext {height: 255px; margin-top: 10px; padding-right: 16px; overflow: auto; overflow-x: hidden; overflow-y: auto;}
+.h1_td {padding-right: 16px;}
+
+.footer_td {height: 71px; background: url(img/footer_bg.jpg) left bottom repeat-x; vertical-align: bottom;}
+.footer {height: 71px; text-align: center; overflow: hidden; color: #404142; width: 1000px; margin: 0px auto;}
+.footer a {color: #404142;}
+.f_links {height: 16px; overflow: hidden; margin-top: 16px;}
+.f_links p {text-align: center; margin: .25em 0em;}
+.f_links a {color: #eeeeee; text-decoration: none;}
+
+.copyright {float: left; padding-left: 20px; width: 300px;}
+.created_by {float: right; padding-right: 40px; text-align: right; width: 300px;}
+
+td.col {padding-right: 80px;}
+
+.main_link {_display: inline-block; _float: left; _text-decoration: none !important;}
+.main_link {display: inline-block; float: left; width: 205px; height: 185px; text-decoration: none !important;}
+
+.h1_line {height: 1px; line-height: 1px; font-size: 1px; border-top: 1px solid #73a4cd; background: #5589b8;}
+
+.under {height: 71px;}
+
+ul, li {list-style-type: disc; list-style-position: outside;}
+ul {margin-left: 2.4em;}
+ul ul, li li {list-style-type: circle !important;}
+
+.klients {margin: 70px auto 10px auto; width: 920px;}
+.klients img {background: transparent; width: 130px; height: auto; max-height: 100px; cursor: pointer;}
+.klients h1 {text-align: center;}
+
+/* Karysel */
+.jcarousel-skin-tango .jcarousel-container-horizontal {padding: 20px 40px;}
+.jcarousel-skin-tango .jcarousel-clip {overflow: hidden;}
+.jcarousel-skin-tango .jcarousel-item-horizontal {margin-left: 15px; margin-right: 5px;}
+.jcarousel-skin-tango .jcarousel-item {width: 150px; max-height: 100px;}
+.jcarousel-skin-tango .jcarousel-prev-horizontal {position: absolute; top: 8px; left: -10px; width: 64px; height: 128px; cursor: pointer; background: transparent url(img/previous.png) no-repeat 0 0; opacity: 0.4;}
+.jcarousel-skin-tango .jcarousel-next-horizontal {position: absolute; top: 8px; right: -10px; width: 64px; height: 128px; cursor: pointer; background: transparent url(img/next.png) no-repeat 0 0; opacity: 0.4;}
+.jcarousel-skin-tango .jcarousel-prev-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-prev-horizontal:focus,
+.jcarousel-next.jcarousel-next-horizontal:hover,
+.jcarousel-next.jcarousel-next-horizontal:focus {opacity: 0.6;}
+
+.front-page .MsoNormal {display: inline-block; width: 810px;}
+.front-page .LeftInfo {float: left;}
+.front-page .RightInfo {float: right; width: 195px;}
+
+.MsoTableGrid tr {border: solid #FF6600 1.0pt;}
+.MsoTableGrid td {border: none !important;}
+
+/* Klients style */
+#subaru {margin-top: 3px;}
+#dzi {margin-top: 0px;}
+#hotelukraine {margin-top: 3px; width: 105px;}
+#mimkiev {margin-top: 1px; width: 100px; margin-left: 15px;}
+#pernorricard {margin-top: 36px;}
+#silvercanter {margin-top: 19px;}
+#universalbank {margin-top: 30px;}
+#man {margin-top: 14px;}
+#esteelauder {border: 1px solid lightblue; padding: 10px; margin-top: 32px; background-color: lightcoral;}
+#avis {margin-top: 15px;}
+#energetix {margin-top: 19px;}
+#dfp {margin-top: 13px;}
+#nacionalnui {margin-top: 0px;}
+#krasnoarmeiskaya,
+#gryshevskogo,
+#artema {margin-top: 6px;}
+#esplanadnaya {margin-top: 1px;}
+#dennewspaper {margin-top: 19px;}
+#evrolab {margin-top: 28px;}
+#premierliga {width: 90px; margin-left: 20px;}
+#yar-val {margin-top: 5px;}

@@ -1,0 +1,8 @@
+AddDefaultCharset UTF-8
+#CharsetDisable On
+RewriteEngine off
+
+<Files ~ "\.ini$">
+  Order deny,allow
+  Deny from all
+</Files>
